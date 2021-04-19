@@ -14,12 +14,12 @@ DISCORD_TOKEN: string;
 ### Deploying
 You can either deploy this project manually using the following steps:
 ```console
-git clone https://github.com/ThinkFiveable/discord-join-roles.git djr    
-cd djr  
-npm install  
-npm run build  
+foo@bar:~$ git clone https://github.com/ThinkFiveable/discord-join-roles.git djr    
+foo@bar:~$ cd djr  
+foo@bar:~$ npm install  
+foo@bar:~$ npm run build  
 // fill in env variables  
-node dist/index.js  
+foo@bar:~$ node dist/index.js  
 ```
 
 You can also make use of the docker/docker-compose files included with the project. To do this, all you have to do is fill out the .env variables, and then do `docker-compose up -d --build`.
