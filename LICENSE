@@ -1,35 +1,3 @@
-# discord-join-roles
-Automate the adding of roles to people who join the server, while respecting member gating.
-
-## 👋 Getting Started
-
-### Setup
-You must provide the following ENV variables, preferably in a .env file
-```ts
-JOIN_ROLE_IDS: string[]; // e.x. 801579353070370837,801508563910393935,801508082274271262
-GUILD_ID: string;
-DISCORD_TOKEN: string;
-```
-
-### Deploying
-You can either deploy this project manually using the following steps:
-```console
-git clone https://github.com/ThinkFiveable/discord-join-roles.git djr    
-cd djr  
-npm install  
-npm run build  
-// fill in env variables  
-node dist/index.js  
-```
-
-You can also make use of the docker/docker-compose files included with the project. To do this, all you have to do is fill out the .env variables, and then do `docker-compose up -d --build`.
-
-### Contributing
-Please follow the [Fiveable Open Source Contributing Guide](https://github.com/ThinkFiveable/open/blob/main/CONTRIBUTING.md)
-
-## ⚖️ License
-
-```
 MIT License
 
 Copyright (c) 2021 Connor Snow
@@ -51,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
