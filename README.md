@@ -5,7 +5,7 @@ Automate the adding of roles to people who join the server, while respecting mem
 
 ### Setup
 You must provide the following ENV variables, preferably in a .env file
-```ts
+```typescript
 JOIN_ROLE_IDS: string[]; // e.x. 801579353070370837,801508563910393935,801508082274271262
 GUILD_ID: string;
 DISCORD_TOKEN: string;
