@@ -1,6 +1,10 @@
 module.exports = {
     root: true,
-    extends: ["airbnb-typescript", "plugin:prettier/recommended"],
+    extends: [
+        "marine/prettier/node",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
+    ],
     env: {
         node: true,
         es2020: true
@@ -16,6 +20,10 @@ module.exports = {
     },
     rules: {
         "no-console": "off",
-        "consistent-return": "off"
+        "consistent-return": "off",
+        "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-misused-promises": "off",
+        "@typescript-eslint/restrict-template-expressions": "off"
     }
 };
