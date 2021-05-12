@@ -1,3 +1,5 @@
+> # ⚠️ This repo is deprecated and has been merged into [role-utils](https://github.com/ThinkFiveable/role-utils)
+
 # discord-join-roles
 Automate the adding of roles to people who join the server, while respecting member gating.
 
